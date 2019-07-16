@@ -8,6 +8,7 @@ import org.junit.Test;
  */
 public class AccountPolymorphismTest {
     private Object account = new Account();
+
     @Test
     public void test1() {
         Assert.assertFalse(account instanceof Transactable);
